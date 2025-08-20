@@ -1,0 +1,11 @@
+/.env
+/.venv
+/.idea
+*.log
+*.db
+/docs/build/
+/src/conf2/
+*/.logs
+*/__pycache__
+.vscode
+*.pyc
