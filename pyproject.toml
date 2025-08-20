@@ -15,7 +15,7 @@ upload_to_pypi = false
 upload_to_repository = true
 tag_commit = "true"
 changelog_file="CHANGELOG.md"
-version_variables = ["src/calendar/configuration.py:__version__"]
+version_variables = ["src/calendar_back/configuration.py:__version__"]
 
 
 [tool.semantic_release.publish]
