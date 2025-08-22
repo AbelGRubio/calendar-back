@@ -1,4 +1,4 @@
-name: SONAR-CHECK
+name: SonarQube Check
 
 on:
   push:
@@ -24,7 +24,7 @@ jobs:
         run: flake8 --output-file=flake8.txt --exit-zero
 
       - name: Upload flake8 artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: flake8-report
           path: flake8.txt
@@ -52,7 +52,7 @@ jobs:
           python -m coverage xml
 
       - name: Upload coverage artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: coverage-report
           path: coverage.xml
