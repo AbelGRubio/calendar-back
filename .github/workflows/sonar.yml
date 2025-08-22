@@ -58,7 +58,7 @@ jobs:
           path: coverage.xml
 
   sonarqube:
-    runs-on: [self-hosted, docker]
+    runs-on: [self-hosted, Windows, X64]
     needs: test
     steps:
       - uses: actions/checkout@v3
