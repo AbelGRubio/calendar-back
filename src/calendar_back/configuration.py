@@ -11,7 +11,7 @@ import os
 
 from .utils.logger_api import LoggerApi
 
-__version__ = "0.0.6"
+__version__ = "0.0.7"
 
 LOGGER = LoggerApi("calendar_back")
 

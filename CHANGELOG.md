@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.0.7 (2025-08-22)
+
+### Bug Fixes
+
+- **Abel**: Update test
+  ([`f807f40`](https://github.com/AbelGRubio/calendar-back/commit/f807f40000bbe850bde95bdcc5dc3dbcab781eae))
+
+
 ## v0.0.6 (2025-08-22)
 
 
