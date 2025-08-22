@@ -16,7 +16,7 @@ from fastapi import APIRouter
 
 
 from ..configuration import LOGGER
-from ..utils.functions import create_outlook_event
+from ..utils.functions import create_google_event
 from ..models import BookingRequest
 
 v1_router = APIRouter()
@@ -25,5 +25,5 @@ v1_router = APIRouter()
 @v1_router.post("/book")
 def create_booking(data: BookingRequest):
     LOGGER.info("Creating booking for ", data)
-    event = create_outlook_event(data)
+    event = create_google_event(data)
     return {"status": "success", "event_id": event["id"]}

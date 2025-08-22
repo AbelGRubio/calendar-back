@@ -13,9 +13,10 @@ from .configuration import __version__, CORS_ORIGINS
                             
 from .routes import api_router, v1_router
 
+
 APP = FastAPI(
-    title="REST API WITH EXAMPLES",
-    summary="REST API WITH EXAMPLES",
+    title="Calendar Backend",
+    summary="Calendar Backend",
     version=__version__
 )
 
