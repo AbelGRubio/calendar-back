@@ -32,7 +32,8 @@ class TestGoogleCalendarService(unittest.TestCase):
     def test_create_google_event(self, mock_get_service):
         # Mock del servicio
         fake_service = MagicMock()
-        fake_service.events.return_value.insert.return_value.execute.return_value = {"id": "123"}
+        fake_service.events.return_value.insert.return_value.execute.return_value = {
+            "id": "123"}
         mock_get_service.return_value = fake_service
 
         # Booking de ejemplo
