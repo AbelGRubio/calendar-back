@@ -1,12 +1,18 @@
 # CHANGELOG
 
 
+## v0.0.5 (2025-08-22)
+
+
 ## v0.0.4 (2025-08-22)
 
 ### Bug Fixes
 
 - **Abel**: Added tests
   ([`eec1f32`](https://github.com/AbelGRubio/calendar-back/commit/eec1f324b9f9d8f768f4d271464f348ea0a6c04c))
+
+- **Abel**: Update requirements.txt
+  ([`7cc2949`](https://github.com/AbelGRubio/calendar-back/commit/7cc2949bcd676b3891daa24939856eae5b740095))
 
 
 ## v0.0.3 (2025-08-22)
