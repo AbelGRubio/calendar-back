@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.0.4 (2025-08-22)
+
+### Bug Fixes
+
+- **Abel**: Added tests
+  ([`eec1f32`](https://github.com/AbelGRubio/calendar-back/commit/eec1f324b9f9d8f768f4d271464f348ea0a6c04c))
+
+
 ## v0.0.3 (2025-08-22)
 
 
