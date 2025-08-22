@@ -1,9 +1,15 @@
 # CHANGELOG
 
 
+## v0.0.9 (2025-08-22)
+
+
 ## v0.0.8 (2025-08-22)
 
 ### Bug Fixes
+
+- **Abel**: Update labels workflow runner
+  ([`4a510e2`](https://github.com/AbelGRubio/calendar-back/commit/4a510e22cb2f54b029912ba3772cf6a54dc24a24))
 
 - **Abel**: Update sonarqube test
   ([`b712479`](https://github.com/AbelGRubio/calendar-back/commit/b71247907f89f84a9319d4a70faf827a815bfeba))
