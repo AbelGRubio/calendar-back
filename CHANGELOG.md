@@ -1,9 +1,15 @@
 # CHANGELOG
 
 
+## v0.0.2 (2025-08-22)
+
+
 ## v0.0.1 (2025-08-22)
 
 ### Bug Fixes
+
+- **abel**: Added test
+  ([`ec00faf`](https://github.com/AbelGRubio/calendar-back/commit/ec00faffa0774a30474928186cb726006d0649dd))
 
 - **Abel**: First commit
   ([`712fcfe`](https://github.com/AbelGRubio/calendar-back/commit/712fcfe3ebc5507b5a14e0f627bfaef26db167c7))
