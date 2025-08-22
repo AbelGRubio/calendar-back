@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.0.8 (2025-08-22)
+
+### Bug Fixes
+
+- **Abel**: Update sonarqube test
+  ([`b712479`](https://github.com/AbelGRubio/calendar-back/commit/b71247907f89f84a9319d4a70faf827a815bfeba))
+
+
 ## v0.0.7 (2025-08-22)
 
 ### Bug Fixes
