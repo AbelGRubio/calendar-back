@@ -1,7 +1,15 @@
 # CHANGELOG
 
 
+## v0.0.6 (2025-08-22)
+
+
 ## v0.0.5 (2025-08-22)
+
+### Bug Fixes
+
+- **Abel**: Update sonarqube report
+  ([`042796c`](https://github.com/AbelGRubio/calendar-back/commit/042796c759e01b8dc73b1dfb8ee2c88ccb5b9512))
 
 
 ## v0.0.4 (2025-08-22)
