@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.1.0 (2025-08-25)
+
+### Features
+
+- **abel**: Added feature add-holidays
+  ([`d543a4a`](https://github.com/AbelGRubio/calendar-back/commit/d543a4a1f8f7565c4920a40c8a42501538b206fd))
+
+
 ## v0.0.9 (2025-08-22)
 
 
