@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.2.2 (2025-08-26)
+
+### Bug Fixes
+
+- **abel**: Logger removed
+  ([`68eec85`](https://github.com/AbelGRubio/calendar-back/commit/68eec8515f8754e77e4930972c44e7a623823d1c))
+
+
 ## v0.2.1 (2025-08-26)
 
 
