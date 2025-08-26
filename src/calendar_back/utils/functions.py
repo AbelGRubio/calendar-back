@@ -12,6 +12,7 @@ SCOPES = ["https://www.googleapis.com/auth/calendar"]
 
 def get_service():
     token_data = json.loads(os.environ["GOOGLE_TOKEN_JSON"])  # guardado como variable de entorno
+    LOGGER.info(f"Antes dek credentials de get_service {token_data}")
     creds = Credentials.from_authorized_user_info(token_data, SCOPES)
     LOGGER.info(token_data)
     return build("calendar", "v3", credentials=creds)
