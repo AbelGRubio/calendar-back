@@ -12,12 +12,12 @@ Includes:
 """
 
 
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Query
 from typing import List
 from datetime import datetime
 
 from ..configuration import LOGGER, HOLIDAYS
-from ..utils.functions import create_google_event
+from ..utils.functions import create_google_event, available_slots
 from ..models import BookingRequest, Holiday, BulkHolidays
 
 v1_router = APIRouter()
@@ -29,6 +29,17 @@ def create_booking(data: BookingRequest):
     event = create_google_event(data)
     return {"status": "success", "event_id": event["id"]}
 
+
+
+@v1_router.get("/available-slots")
+def available_slots_endpoint(date: str = Query(..., description="Date in YYYY-MM-DD format")):
+    try:
+        available = available_slots(date)
+        return {"available_slots": available}
+    except Exception as e:
+        raise HTTPException(status_code=500,
+                            detail=f"Error getting slots")
+    
 
 # Helper function to validate date format
 def validate_date(date_str: str):
