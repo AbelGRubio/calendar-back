@@ -1,7 +1,15 @@
 # CHANGELOG
 
 
+## v0.1.3 (2025-08-26)
+
+
 ## v0.1.2 (2025-08-26)
+
+### Bug Fixes
+
+- **abel**: Changed configuration vercel
+  ([`0efd766`](https://github.com/AbelGRubio/calendar-back/commit/0efd766dc7adb459d8eef3aec92c201a15692d34))
 
 
 ## v0.1.1 (2025-08-26)

@@ -12,7 +12,7 @@ from datetime import date
 
 from .utils.logger_api import LoggerApi
 
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 
 LOGGER = LoggerApi("calendar_back")
 
