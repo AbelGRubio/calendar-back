@@ -1,7 +1,15 @@
 # CHANGELOG
 
 
+## v0.1.9 (2025-08-26)
+
+
 ## v0.1.8 (2025-08-26)
+
+### Bug Fixes
+
+- **Abel**: Directory correction
+  ([`d38698b`](https://github.com/AbelGRubio/calendar-back/commit/d38698b512d4d7702a38c0fe765304b1faed751b))
 
 
 ## v0.1.7 (2025-08-26)
