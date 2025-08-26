@@ -1,7 +1,15 @@
 # CHANGELOG
 
 
+## v0.2.0 (2025-08-26)
+
+
 ## v0.1.10 (2025-08-26)
+
+### Features
+
+- **abel**: Update requirements.txt
+  ([`6d2a00e`](https://github.com/AbelGRubio/calendar-back/commit/6d2a00e0b35ecbcce6c0851ebf102d9d40ab956c))
 
 
 ## v0.1.9 (2025-08-26)
