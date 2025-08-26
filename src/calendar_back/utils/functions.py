@@ -59,29 +59,33 @@ def available_slots(date: str):
     # Fecha a consultar
     day_start = tz.localize(datetime.strptime(date, "%Y-%m-%d"))
     day_end = day_start + timedelta(days=1)
-
-    # Obtener eventos del calendario para ese día
-    events_result = (
-        service.events()
-        .list(
-            calendarId="primary",
-            timeMin=day_start.isoformat(),
-            timeMax=day_end.isoformat(),
-            singleEvents=True,
-            orderBy="startTime",
-        )
-        .execute()
-    )
-    LOGGER.info(events_result)
-    busy_times = []
-    for event in events_result.get("items", []):
-        start = event["start"].get("dateTime")
-        end = event["end"].get("dateTime")
-        if start and end:
-            busy_times.append(
-                (datetime.fromisoformat(start), datetime.fromisoformat(end))
+    try:
+        # Obtener eventos del calendario para ese día
+        events_result = (
+            service.events()
+            .list(
+                calendarId="primary",
+                timeMin=day_start.isoformat(),
+                timeMax=day_end.isoformat(),
+                singleEvents=True,
+                orderBy="startTime",
             )
-
+            .execute()
+        )
+    except Exception as e:
+        raise Exception(f"Peta aqui {e} -- {events_result}") 
+    
+    try: 
+        busy_times = []
+        for event in events_result.get("items", []):
+            start = event["start"].get("dateTime")
+            end = event["end"].get("dateTime")
+            if start and end:
+                busy_times.append(
+                    (datetime.fromisoformat(start), datetime.fromisoformat(end))
+                )
+    except Exception as e:
+        raise Exception(f"Falla obteniendo los events {e}") 
     # Generar todos los posibles slots
     possible_slots = generate_slots(day_start, [11, 15], [14, 18])
 
