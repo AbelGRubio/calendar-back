@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.1.1 (2025-08-26)
+
+### Bug Fixes
+
+- **Abel**: Added vercel deployment
+  ([`5c5a7c0`](https://github.com/AbelGRubio/calendar-back/commit/5c5a7c05bc6255a68da05c4a1e1a053ed05f000d))
+
+
 ## v0.1.0 (2025-08-25)
 
 ### Features
