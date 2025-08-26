@@ -1,7 +1,15 @@
 # CHANGELOG
 
 
+## v0.1.5 (2025-08-26)
+
+
 ## v0.1.4 (2025-08-26)
+
+### Bug Fixes
+
+- **abel**: Change log folder
+  ([`9abfe55`](https://github.com/AbelGRubio/calendar-back/commit/9abfe5510d925a16fd0c52869dce66b6454ff74f))
 
 
 ## v0.1.3 (2025-08-26)
