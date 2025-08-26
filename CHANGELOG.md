@@ -1,7 +1,15 @@
 # CHANGELOG
 
 
+## v0.1.6 (2025-08-26)
+
+
 ## v0.1.5 (2025-08-26)
+
+### Bug Fixes
+
+- **abel**: Casting de app variable for Vercel
+  ([`88391ee`](https://github.com/AbelGRubio/calendar-back/commit/88391ee623109d8f85efb03bf7c51688eae6a3fc))
 
 
 ## v0.1.4 (2025-08-26)
