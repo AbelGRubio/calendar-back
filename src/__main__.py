@@ -6,6 +6,8 @@ import uvicorn
 
 from calendar_back import APP, LOGGER, API_PORT, API_IP, LOG_CONFIG
 
+# for vercel deployment
+app = APP 
 
 if __name__ == '__main__':
     LOGGER.debug("Starting...")
