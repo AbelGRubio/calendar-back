@@ -38,7 +38,7 @@ def available_slots_endpoint(date: str = Query(..., description="Date in YYYY-MM
         return {"available_slots": available}
     except Exception as e:
         raise HTTPException(status_code=500,
-                            detail=f"Error getting slots")
+                            detail=f"Error getting slots {e}")
     
 
 # Helper function to validate date format
