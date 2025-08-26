@@ -66,7 +66,7 @@ def add_holidays_bulk(data: BulkHolidays):
     for holiday in data.holidays:
         try:
             validate_date(holiday.date)
-            if any(h["date"] == holiday.date for h in holidays):
+            if any(h["date"] == holiday.date for h in data.holidays):
                 continue  # Skip duplicates
             HOLIDAYS.append({"date": holiday.date, "description": holiday.description})
             added_holidays.append(holiday)
