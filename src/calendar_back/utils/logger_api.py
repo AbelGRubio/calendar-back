@@ -56,7 +56,7 @@ class LoggerApi(logging.Logger):
         if not name:
             name = 'api'
         super().__init__(name, level)
-        self._folder_name = '.logs'
+        self._folder_name = '/tmp/.logs'
         self.file_name = f'{self._folder_name}/{self.name}.log'
         self.msg_format = '%(asctime)s\t%(levelname)s\t%(name)s\t%(message)s'
         self.datetime_format = "%Y-%m-%d %H:%M:%S"
