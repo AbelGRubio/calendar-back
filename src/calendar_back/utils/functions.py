@@ -12,8 +12,8 @@ SCOPES = ["https://www.googleapis.com/auth/calendar"]
 
 def get_service():
     token_data = json.loads(os.environ["GOOGLE_TOKEN_JSON"])  # guardado como variable de entorno
-    LOGGER.info(token_data)
     creds = Credentials.from_authorized_user_info(token_data, SCOPES)
+    LOGGER.info(token_data)
     return build("calendar", "v3", credentials=creds)
 
 
@@ -56,7 +56,7 @@ def generate_slots(date: datetime, start_hours: list, end_hours: list):
 def available_slots(date: str):
     service = get_service()
     tz = pytz.timezone("Europe/Madrid")
-
+    LOGGER.info("Llega hasta la time zone de available slots")
     # Fecha a consultar
     day_start = tz.localize(datetime.strptime(date, "%Y-%m-%d"))
     day_end = day_start + timedelta(days=1)
