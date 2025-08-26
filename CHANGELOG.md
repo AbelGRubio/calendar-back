@@ -1,7 +1,15 @@
 # CHANGELOG
 
 
+## v0.1.4 (2025-08-26)
+
+
 ## v0.1.3 (2025-08-26)
+
+### Bug Fixes
+
+- **abel**: Remove env variable in builds
+  ([`d4f246b`](https://github.com/AbelGRubio/calendar-back/commit/d4f246bf0317f19d345322b5b7fb794a3f545d53))
 
 
 ## v0.1.2 (2025-08-26)
