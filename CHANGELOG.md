@@ -1,7 +1,15 @@
 # CHANGELOG
 
 
+## v0.1.10 (2025-08-26)
+
+
 ## v0.1.9 (2025-08-26)
+
+### Bug Fixes
+
+- **abel**: Added rest of endpoints
+  ([`db6e2a9`](https://github.com/AbelGRubio/calendar-back/commit/db6e2a9de1e493277d5e270e67270528d55b5720))
 
 
 ## v0.1.8 (2025-08-26)
