@@ -1,7 +1,15 @@
 # CHANGELOG
 
 
+## v0.2.1 (2025-08-26)
+
+
 ## v0.2.0 (2025-08-26)
+
+### Bug Fixes
+
+- **abel**: Minor change for know the error
+  ([`6e0abdf`](https://github.com/AbelGRubio/calendar-back/commit/6e0abdf296ab6346d44951233724ce273c4bd2e2))
 
 
 ## v0.1.10 (2025-08-26)
