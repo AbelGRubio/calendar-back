@@ -1,12 +1,18 @@
 # CHANGELOG
 
 
+## v0.1.8 (2025-08-26)
+
+
 ## v0.1.7 (2025-08-26)
 
 ### Bug Fixes
 
 - **Abel**: Added rate-limit
   ([`a92b576`](https://github.com/AbelGRubio/calendar-back/commit/a92b576adbf97341ce57341820851f8e7fa7da83))
+
+- **abel**: Change logger
+  ([`1395745`](https://github.com/AbelGRubio/calendar-back/commit/139574516a7a4be58ee50954e7931eb700114d3b))
 
 
 ## v0.1.6 (2025-08-26)
