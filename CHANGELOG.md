@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.2.3 (2026-01-19)
+
+### Bug Fixes
+
+- Added makefile
+  ([`15b1689`](https://github.com/AbelGRubio/calendar-back/commit/15b1689c5102b5efce5f3b499514cf80f03c2c13))
+
+
 ## v0.2.2 (2025-08-26)
 
 ### Bug Fixes
